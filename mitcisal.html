@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>worknology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="textheader">
+        <p><a href="index.html">worknology</a></p>
+        <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav>
+            <ul>
+                <li><a href = "listalavorifuturi.html">lavori</a></li>
+                <li><a href = "competenze.html">competenze</a></li>
+                <li><a href = "glossario.html">glossario</a></li>
+                <li><a href = "about.html">chi siamo</a></li>
+            </ul>
+        </nav>
+        </div>
+   </header> 
+   <main>
+    <section class="hero hero_two">
+    <div class="hero_img">
+        <img src="img/heromitcsail.png" alt="">
+    </div>
+
+    <div class="hero_overlay">
+        <div class="intro_text">
+        <h1>mit-csail</h1>
+        <p>il Laboratory del Massachusetts Institute of Technology rappresenta un punto di riferimento per innovazione e formazione nel campo dell’AI.</p>
+        </div>
+    </section>
+
+<section class="content_container">
+    <div class="content">
+            <div class="content_img">
+                <img src="img/mitcsail1.png" class="gallery">
+            </div>
+        <div class="content_text"> 
+            <h1>Il ruolo di CSAIL del MIT nello sviluppo dell’intelligenza artificiale</h1>
+            <p>Il CSAIL del MIT è uno dei principali centri accademici al mondo dedicati
+                all’intelligenza artificiale. Al suo interno, ricerca teorica e applicata si uniscono 
+                per sviluppare nuove idee e trasformarle in tecnologie concrete. Studenti, 
+                docenti e ricercatori collaborano per addestrare e testare modelli di AI su g
+                randi quantità di dati, valutandone affidabilità, efficienza e capacità di adattamento.</p>
+            <p>Un aspetto fondamentale del lavoro del <span class="highlight">CSAIL</span> è comprendere a fondo come funzionano i modelli sviluppati.
+                Non basta creare sistemi potenti: è importante sapere come prendono decisioni, quali dati 
+                utilizzano e quali limiti presentano. Per questo il laboratorio dedica 
+                grande attenzione a temi come trasparenza, interpretabilità ed etica dell’intelligenza 
+                artificiale.</p>
+        </div>  
+    </div>
+    </section>
+    <section class="two_container">
+               <div class="img_two no_patina">
+                <img src="img/mitcsail2.png" class="gallery">
+            </div>
+        <div class="text_two">
+            <div class="text_two_paragrafi">
+            <p>Le attività del laboratorio spaziano in molti ambiti, dalla robotica alla visione artificiale, dal linguaggio naturale alla sicurezza informatica. Questo approccio interdisciplinare consente di affrontare problemi complessi e di sviluppare soluzioni innovative che possono avere applicazioni reali in diversi settori, come la medicina, l’industria e i servizi.</p>
+        </div> 
+        </div>
+    </section>
+    <section class="content_container">
+    <div class="content">
+        <div class="content_text">
+            <h1>obiettivi</h1>
+            <p>Gli obiettivi principali del CSAIL sono chiari e ambiziosi:</p>
+            <ul>
+                <li>Sviluppare tecnologie all’avanguardia che possano migliorare
+                    la vita delle persone.</li>
+
+                <li>Formare nuove generazioni di esperti in intelligenza artificiale,
+                    fornendo competenze teoriche e pratiche.</li>
+
+                <li>Rendere i sistemi di AI più trasparenti, affidabili e sicuri,
+                    riducendo i rischi legati al loro utilizzo.</li>
+            </ul>
+            <p>Questo laboratorio dimostra che educare l’intelligenza artificiale
+                significa anche educare le persone che la progettano e la utilizzano.
+                Il legame tra università, ricerca e innovazione è quindi fondamentale
+                per costruire un futuro in cui l’AI sia non solo potente,
+                ma anche responsabile e utile per la società.</p>
+        </div>
+        <div class="content_img">
+            <img src="img/mitcsail3.png" class="gallery" alt="">
+        </div>
+
+    </div>
+
+</section>
+<div class="torna_lista">
+            <a href="listaai.html">Torna alla lista</a>
+        </div>
+   </main>
+
+    <footer>
+    <div class="footer_container">
+
+        <div class="footer_left">
+            <h3>worknology</h3>
+            <p>Uno spazio dedicato a comprendere come tecnologia, intelligenza artificiale
+              e innovazione stanno trasformando le professioni di oggi e di domani.</p>
+        <form class="footer_search" id="footerSearch">
+          <input type="search" id="footerSearchInput" placeholder="cerca una pagina">
+          <button type="submit" aria-label="Cerca">
+            <img src="img/vector-glo.svg" alt="">
+          </button>
+        </form>
+      </div>
+        <div class="footer_right">
+            <div class="footer_contacts">
+                <p>Corso V. Emanuele 13 - Milano (MI)
+                  info.worknology.it <br>
+                  0932-239963</p>
+            </div>
+
+            <div class="footer_line"></div>
+
+            <div class="footer_social">
+              <p>Seguici sui social</p>
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const footerSearch = document.getElementById("footerSearch");
+    const footerSearchInput = document.getElementById("footerSearchInput");
+
+    footerSearch.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const ricerca = footerSearchInput.value.toLowerCase().trim();
+
+        if (
+            ricerca.includes("ai") ||
+            ricerca.includes("intelligenza artificiale") ||
+            ricerca.includes("protagonisti") ||
+            ricerca.includes("openai") ||
+            ricerca.includes("deepmind") ||
+            ricerca.includes("csail") ||
+            ricerca.includes("ccds") ||
+            ricerca.includes("buet")
+        ) {
+            window.location.href = "listaai.html";
+        }
+
+        else if (
+            ricerca.includes("scomparire") ||
+            ricerca.includes("scompariranno") ||
+            ricerca.includes("lavori che scompaiono") ||
+            ricerca.includes("professioni") ||
+            ricerca.includes("data entry") ||
+            ricerca.includes("telemarketing") ||
+            ricerca.includes("cassieri") ||
+            ricerca.includes("contabili") ||
+            ricerca.includes("magazzino") ||
+            ricerca.includes("analisti")
+        ) {
+            window.location.href = "listalavori.html";
+        }
+
+        else {
+            alert("Pagina non trovata. Prova con: AI, OpenAI, professioni, data entry o cassieri.");
+        }
+    });
+</script>
+
+
+<script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("header nav");
+
+    menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("is-open");
+
+        const isOpen = nav.classList.contains("is-open");
+        menuToggle.setAttribute("aria-expanded", isOpen);
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>worknology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="textheader">
+        <p><a href="index.html">worknology</a></p>
+        <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav>
+            <ul>
+                <li><a href = "listalavorifuturi.html">lavori</a></li>
+                <li><a href = "competenze.html">competenze</a></li>
+                <li><a href = "glossario.html">glossario</a></li>
+                <li><a href = "about.html">chi siamo</a></li>
+            </ul>
+        </nav>
+        </div>
+   </header> 
+   <main>
+    <section class="hero hero_two">
+    <div class="hero_img">
+        <img src="img/herotelemarketing.png" alt="">
+    </div>
+    <div class="hero_overlay">
+        <div class="intro_text">
+            <h1>operatori di telemarketing</h1>
+            <p>Le voci artificiali sostituiranno gli operatori?</p>
+        </div>
+    </div>
+</section>
+
+    <section class="contenitore_scomp">
+        <div class="content">
+        <div class="text_two">
+            <h1>perchè l’ ai può sostituirli:</h1>
+            <div class="text_two_paragrafi">
+            <p>Le chiamate a freddo sono attività che spesso seguono uno schema preciso e ripetitivo. Gli operatori, infatti, utilizzano solitamente uno script già preparato, con frasi standard per presentare un prodotto, spiegare un’offerta o cercare di convincere il cliente a proseguire la conversazione. Proprio per questo motivo, questo tipo di lavoro può essere facilmente automatizzato attraverso l’intelligenza artificiale.
+Oggi l’AI vocale è in grado di simulare una voce umana in modo sempre più naturale, facendo domande, rispondendo a richieste semplici e adattando la conversazione in base alle risposte della persona. Per esempio, se un cliente è interessato, il sistema può fornire maggiori informazioni; se invece non è disponibile, può proporre di essere ricontattato in un altro momento.</p>
+            <p>Inoltre, l’intelligenza artificiale può gestire molte chiamate contemporaneamente, senza stancarsi e senza perdere concentrazione. Questo permette alle aziende di risparmiare tempo e ridurre i costi, mantenendo un servizio continuo e organizzato. Anche se nei casi più complessi resta importante l’intervento umano.</p>
+            </div>
+        </div>
+        <div class="content_img">
+            <img src="img/telemarketing1.png" class="gallery">
+        </div>
+        </div>
+
+        <div class="content">
+        <div class="text_two">
+            <h1>come si sta evolvendo:</h1>
+            <div class="text_two_paragrafi">
+            <p>La situazione sta cambiando rapidamente perché le aziende stanno introducendo sempre di più sistemi automatici basati sull’intelligenza artificiale per gestire le chiamate commerciali. Oggi questi strumenti possono effettuare migliaia di chiamate al giorno, seguendo script predefiniti e raccogliendo informazioni utili sull’interesse dei clienti.
+                L’IA, infatti, non si limita solo a parlare con le persone, ma può anche analizzare le risposte, capire se un cliente è interessato o meno e adattare la proposta di vendita in base alla conversazione.</p>
+            <p>Il compito più ripetitivo, quindi, viene affidato ai sistemi automatici, mentre gli operatori umani si concentrano sulle chiamate più complesse o importanti. In queste situazioni, qualità come empatia, capacità di ascolto, intuito e comunicazione personale restano fondamentali. Per questo motivo il lavoro non scompare del tutto, ma si trasforma: l’operatore passa da semplice esecutore di chiamate a figura più specializzata, capace di gestire clienti più interessati o situazioni delicate.</p>
+            </div>
+        </div>
+        <div class="content_img">
+            <img src="img/telemarketing2.png" class="gallery">
+        </div>
+        </div>
+    </section>
+    <section class="container_img">
+        <div class="two_container">
+               <div class="scomp_img">
+                <img src="img/telemarketing3.png" class="gallery">
+            </div>
+    </section>
+    <div class="torna_lista">
+            <a href="listalavori.html">Torna alla lista</a>
+        </div>
+   </main>
+
+   <footer>
+    <div class="footer_container">
+
+        <div class="footer_left">
+            <h3>worknology</h3>
+            <p>Uno spazio dedicato a comprendere come tecnologia, intelligenza artificiale
+              e innovazione stanno trasformando le professioni di oggi e di domani.</p>
+        <form class="footer_search" id="footerSearch">
+          <input type="search" id="footerSearchInput" placeholder="cerca una pagina">
+          <button type="submit" aria-label="Cerca">
+            <img src="img/vector-glo.svg" alt="">
+          </button>
+        </form>
+      </div>
+        <div class="footer_right">
+            <div class="footer_contacts">
+                <p>Corso V. Emanuele 13 - Milano (MI)
+                  info.worknology.it <br>
+                  0932-239963</p>
+            </div>
+
+            <div class="footer_line"></div>
+
+            <div class="footer_social">
+              <p>Seguici sui social</p>
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<script>
+    const footerSearch = document.getElementById("footerSearch");
+    const footerSearchInput = document.getElementById("footerSearchInput");
+
+    footerSearch.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const ricerca = footerSearchInput.value.toLowerCase().trim();
+
+        if (
+            ricerca.includes("ai") ||
+            ricerca.includes("intelligenza artificiale") ||
+            ricerca.includes("protagonisti") ||
+            ricerca.includes("openai") ||
+            ricerca.includes("deepmind") ||
+            ricerca.includes("csail") ||
+            ricerca.includes("ccds") ||
+            ricerca.includes("buet")
+        ) {
+            window.location.href = "listaai.html";
+        }
+
+        else if (
+            ricerca.includes("scomparire") ||
+            ricerca.includes("scompariranno") ||
+            ricerca.includes("lavori che scompaiono") ||
+            ricerca.includes("professioni") ||
+            ricerca.includes("data entry") ||
+            ricerca.includes("telemarketing") ||
+            ricerca.includes("cassieri") ||
+            ricerca.includes("contabili") ||
+            ricerca.includes("magazzino") ||
+            ricerca.includes("analisti")
+        ) {
+            window.location.href = "listalavori.html";
+        }
+
+        else {
+            alert("Pagina non trovata. Prova con: AI, OpenAI, professioni, data entry o cassieri.");
+        }
+    });
+</script>
+
+    <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("header nav");
+
+    menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("is-open");
+
+        const isOpen = nav.classList.contains("is-open");
+        menuToggle.setAttribute("aria-expanded", isOpen);
+    });
+</script>
+</body>
+</html>

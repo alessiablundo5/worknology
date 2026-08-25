@@ -1321,13 +1321,10 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-
         background: transparent;
         border: none;
-
         color: var(--sfondo);
         font-size: 28px;
-
         cursor: pointer;
         z-index: 20;
     }
@@ -1335,17 +1332,12 @@ footer {
 
     header nav {
         position: absolute;
-
         top: 100%;
         left: 0;
-
         width: 100%;
-
         background-color: var(--primario);
-
         max-height: 0;
         overflow: hidden;
-
         transition: max-height 0.3s ease;
     }
 
@@ -1399,7 +1391,7 @@ footer {
         align-items: start;
     }
     
-    
+    /*
     .intro_text h1.hero_title_one_line {
         width: max-content;
         max-width: none;
@@ -1408,7 +1400,7 @@ footer {
         line-height: 1.15;
         position: relative;
         z-index: 3;
-    }
+    }*/
     
     .intro_text {
         position: relative;

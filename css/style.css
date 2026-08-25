@@ -276,22 +276,18 @@ header nav ul a:hover{
     max-width: none;
     display: block;
     object-fit: cover;
-    object-position: center;
-    transform: translateY(20px) scale(1.08);
+    object-position: center 60%;
+    transform: none;
 }
 
 .hero_two .hero_overlay {
     position: absolute;
     inset: 0;
-
     max-width: var(--container-width);
     width: 100%;
-
     margin: 0 auto;
-
     display: flex;
     align-items: center;
-
     z-index: 2;
 }
 

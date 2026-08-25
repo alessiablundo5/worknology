@@ -1285,10 +1285,6 @@ footer {
 
 @media (max-width: 600px) {
 
-    /* =========================
-       VARIABILI
-    ========================= */
-
     :root {
         --space-sm: 24px;
         --space-m: 56px;
@@ -1385,19 +1381,21 @@ footer {
 
     .hero {
         min-height: 360px;
+        position: relative;
         overflow: hidden;
-} 
+    } 
 
     .hero_bottom {
-        height: 32%;
+        height: 22%;
     }
     
     .hero_inner {
+        position: relative;
         width: 100%;
         padding: 30px 20px 0;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 58% 42%;
+        grid-template-columns: 68% 32%;
         align-items: start;
     }
     
@@ -1413,9 +1411,12 @@ footer {
     }
     
     .intro_text {
-        margin: 25px 0 0 20px;
+        position: relative;
+        margin: 25px 0 0 0px;
         padding-left: 14px;
+        width: 100%;
         min-width: 0;
+        z-index: 2;
     }
     
     .intro_text::before {
@@ -1440,8 +1441,8 @@ footer {
     .hero_img {
         position: relative;
         width: 100%;
-        height: 170px;
-        margin-top: 37px;
+        height: 190px;
+        margin-top: 30px;
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
@@ -1453,8 +1454,8 @@ footer {
         position: static;
         width: auto;
         height: auto;
-        max-width: 135%;
-        max-height: 225px;
+        max-width: 155%;
+        max-height: 220px;
         object-fit: contain;
         display: block;
     }

@@ -730,17 +730,18 @@ header nav ul a:hover{
     margin-bottom: var(--space-sm);
 }
 
-/*TORNA ALLA LISTA*/
 
-.torna_lista,
+.cardhome_button .card_contenitore {
+    margin-bottom: 40px;
+}
+
 .vai_lavori {
     text-align: center;
     padding-bottom: var(--space-m);
-    margin-top: -20px;
+    margin-top: 0;
 }
 
-.vai_lavori a,
-.torna_lista a {
+.vai_lavori a {
     display: inline-block;
     color: var(--quartario);
     text-decoration: none;
@@ -748,7 +749,6 @@ header nav ul a:hover{
     transition: transform 0.3s ease;
 }
 
-/* VAI AI LAVORI */
 
 .vai_lavori a::after {
     content: "→";
@@ -764,21 +764,6 @@ header nav ul a:hover{
     margin-left: 18px; 
 }
 
-/* TORNA ALLA LISTA */
-
-.torna_lista a::before {
-    content: "←";
-    margin-right: 8px;
-    transition: margin-right 0.3s ease;
-}
-
-.torna_lista a:hover {
-    transform: translateX(4px);
-}
-
-.torna_lista a:hover::before {
-    margin-right: 18px;
-}
 /* GLOSSARIO */
 
 .glossario {
@@ -1673,12 +1658,14 @@ footer {
         margin: 0 auto;
     }
 
-
-    .vai_lavori {
-        margin-top: -35px;
+    .cardhome_con_bottone .card_contenitore {
+        margin-bottom: 20px;
     }
 
-
+    .vai_lavori {
+        margin-top: 0;
+        padding-bottom: var(--space-m);
+    }
 
     /*INFO*/
 

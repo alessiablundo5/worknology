@@ -1290,7 +1290,6 @@ footer {
 }
 
 
-
 @media (max-width: 600px) {
 
     :root {
@@ -1411,7 +1410,7 @@ footer {
     z-index: 1;
     width: 100%;
     margin: 0 auto;
-    padding: 45px 20px 80px;
+    padding: 70px 20px 80px;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -1433,7 +1432,12 @@ footer {
     width: 100%;
     max-width: 100%;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 1.15;
+}
+
+.hero_two .intro_text h1 {
+    font-size: 24px;
     line-height: 1.15;
 }
 
@@ -1474,6 +1478,20 @@ footer {
 .hero_img img.hero_small {
     width: 60%;
 }
+
+    .hero_img img.hero_about,
+    .hero_img img[src*="heroabout"] {
+        position: relative;
+        top: 80px;
+    }
+
+    /* HERO AI - immagine leggermente più bassa */
+    .hero_img img.hero_ai,
+    .hero_ai .hero_img img,
+    .hero_img img[src*="heroai"] {
+        position: relative;
+        top: 40px;
+    }
 
     
     .hero_two {
@@ -1908,8 +1926,6 @@ footer {
         margin: 20px 0;
     }
 
-    .intro_text h1,
-    .hero_two .intro_text h1,
     .content_text h1,
     .text_two h1,
     .info_text h1,
@@ -1942,4 +1958,6 @@ footer {
         font-size: 15px;
         line-height: 1.5;
     }
+
 }
+
